@@ -1,8 +1,11 @@
+// import Session from './sessions/';
+
 function App() {
   return (
-    <>
-      <h1>Hello React</h1>
-    </>
+    <div className='container'>
+      {/* <Session /> */}
+      <h2>React Tutorial</h2>
+    </div>
   );
 }
 
