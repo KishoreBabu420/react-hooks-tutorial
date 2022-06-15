@@ -1,4 +1,4 @@
-import Session from './sessions/useState/UseStateArrays';
+import Session from './sessions/useEffect/UseEffectBasics';
 
 const App = () => {
   return (
