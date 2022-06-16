@@ -1,4 +1,4 @@
-import Session from './sessions/useEffect/UseEffectBasics';
+import Session from './sessions/useEffect/UseEffectFetch';
 
 const App = () => {
   return (
