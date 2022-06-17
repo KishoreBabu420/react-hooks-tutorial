@@ -1,4 +1,4 @@
-import Session from './sessions/conditionalRendering/MultipleReturns';
+import Session from './sessions/conditionalRendering/ShortCircuiting';
 
 const App = () => {
   return (
