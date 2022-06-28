@@ -1,4 +1,4 @@
-import Session from './sessions/conditionalRendering/ShortCircuiting';
+import Session from './sessions/forms/ControlledInputs';
 
 const App = () => {
   return (
