@@ -11,7 +11,7 @@ const ControlledInputs = () => {
   const submitHandler = (e) => {
     e.preventDefault();
     if (username && email) {
-      const person = { id: uuidv4(), username: username, email: email };
+      const person = { id: uuidv4(), username, email };
       setPeople((people) => {
         return [...people, person];
       });
@@ -59,3 +59,9 @@ const ControlledInputs = () => {
 };
 
 export default ControlledInputs;
+
+// How to collect multiple inputs
+
+//useRef - unControlled Inputs
+
+//useReducer - Redux
