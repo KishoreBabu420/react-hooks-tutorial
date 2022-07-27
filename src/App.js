@@ -1,4 +1,4 @@
-import Session from './sessions/useRef/UseRef';
+import Session from './sessions/useReducer';
 
 const App = () => {
   return (
